@@ -22,7 +22,8 @@ footer {
           &:first-of-type {
             margin: 0;
           }
-          &:hover path {
+          &:hover path,
+          &:focus path {
             fill: $lime-green;
           }
         }
@@ -42,7 +43,8 @@ footer {
         .footer-link {
           color: $light-grayish-blue;
           transition: color 250ms ease-in;
-          &:hover {
+          &:hover,
+          &:focus {
             color: $lime-green;
           }
         }
@@ -75,7 +77,8 @@ footer {
   a {
     color: hsl(136, 65%, 51%);
     padding-bottom: 2px;
-    &:hover {
+    &:hover,
+    &:focus {
       border-bottom: 2px solid hsl(136, 65%, 51%);
     }
   }

@@ -36,7 +36,8 @@ header {
           transition: transform 500ms ease-in;
         }
 
-        &:hover {
+        &:hover,
+        &:focus {
           color: $dark-blue;
           font-weight: $bold;
         }

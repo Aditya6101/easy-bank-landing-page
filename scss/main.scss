@@ -100,7 +100,8 @@
         font-weight: $regular;
         transition: color 250ms ease-in;
         cursor: pointer;
-        &:hover {
+        &:hover,
+        &:focus {
           color: $lime-green;
         }
       }
