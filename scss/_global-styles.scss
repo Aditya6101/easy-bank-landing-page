@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+  font-size: 18px;
+  min-width: 100vw;
+  overflow-x: hidden;
+}
+
+.btn {
+  padding: 0.8em 1.7em;
+  background: linear-gradient(to right, $lime-green, $bright-cyan);
+  font-family: inherit;
+  font-weight: $bold;
+  font-size: 1rem;
+  border-radius: 50px;
+  color: $white;
+  transition: opacity 250ms ease-in;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+section {
+  min-height: 100vh;
+  min-width: 100vw;
+  padding: 0 5%;
+}
+
+h1,
+h2 {
+  font-size: 3rem;
+  font-weight: $small;
+  color: $dark-blue;
+}
+
+h4 {
+  font-weight: $regular;
+  font-size: 1.3rem;
+  color: $dark-blue;
+  margin: 1.3em 0;
+}
+
+p {
+  font-size: 1rem;
+  color: $grayish-blue;
+  line-height: 1.7em;
+  margin: 1.8em 0;
+}
